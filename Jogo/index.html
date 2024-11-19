@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bonitinho.css">
+</head>
+<body>
+    
+<audio id="background-audio" autoplay loop>
+    <source src="floresta1.mp3" type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
+</audio>
+
+<canvas id="canvas" width="900px" height="450px"></canvas>
+
+<img class="ba" src="./Img/logo atualizadaaa.png" alt="">
+
+<img class="img" src="./Img/fundo da pagina inicial.jpg" alt="">
+<div class="controle1">
+    <a href="./video1.html"><img class="botao" src="./Img/botao de jogar.png" alt=""></a>
+    <a href="./controle.html"><img class="botao2" src="./Img/botao de opçoes.png" alt=""> </a>
+</div>
+
+<script>
+    // Aumenta o volume do áudio
+    var audio = document.getElementById('background-audio');
+    audio.volume = 0.8; // Define o volume para 80% (0.8)
+</script>
+
+</body>
+
+</html>

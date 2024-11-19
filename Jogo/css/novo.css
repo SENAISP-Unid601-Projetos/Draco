@@ -1,0 +1,38 @@
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 1490px;
+    height: 740px;
+  }
+  body{
+    position: relative;
+    background-color: #24133D;
+  }
+  .img2 {
+    position: absolute;
+    top: 190px;
+    left: 510px;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+  }
+  .img3 {
+    position: absolute;
+    top: 40px;
+    left: 540px;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+  }
+  #restartButton{
+    position: absolute; /* Posiciona o botão de forma absoluta */
+    top: 63%; /* Move o botão para o meio da tela verticalmente */
+    left: 49%; /* Move o botão para o meio da tela horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição do botão para que seu centro fique no meio da tela */
+    display: none; /* Mantém o botão escondido inicialmente */
+    width: 15%;
+    height: 10%;
+}

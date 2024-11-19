@@ -1,0 +1,114 @@
+canvas {
+    margin-top: 100px;
+    margin-left: 300px;
+    display: block;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 1526px;
+    height: 748px;
+  }
+.botao3 {
+    display: flex;
+    position: absolute;
+    width: 290px;
+    height: 250px;
+    top: 400px;
+    margin-left: -690px;
+}
+.botao2 {
+    display: flex;
+    position: absolute;
+    width: 260px;
+    height: 150px;
+    top: 390px;
+    margin-left: -150px;
+    
+}
+.botao {
+    position: absolute;
+    width: 260px;
+    height: 150px;
+    top: 250px;
+    margin-left: -150px;
+    animation: pulse 2s infinite
+}
+.botao :active{
+    transform: scale(0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.controle1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.controles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Img {
+    position: relative;
+    margin-left: 100px;
+    top: -600px;
+}
+.IMG {
+    position: relative;
+    margin-left: 300px;
+    top: 100px;
+    z-index: -2;
+}
+.script {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -290px;
+}
+.bo {
+
+    position: absolute;
+    margin-left: 550px;
+    margin-top: -250px;
+
+}
+a :hover{
+    scale: 1.3;
+    transition: 2;
+    cursor: pointer;
+}
+a :hover ::before{
+    opacity: 0;
+}
+.p{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ba{
+
+    position:absolute;
+    margin-top: -490px;
+    width: 1450px;
+    height: 160px;
+    margin-left: 60px;
+
+}
+#video {
+    display: none; /* Esconde o vídeo inicialmente */
+    width: 900px;
+    height: 450px;
+}
