@@ -8,13 +8,13 @@ img.onload = function() {
 };
 
 var imgGameOver = new Image();
-imgGameOver.src = './IMG/gameover1.png'; // Certifique-se de que a imagem "game_over.png" está disponível
+imgGameOver.src = './img/gameover1.png'; // Certifique-se de que a imagem "game_over.png" está disponível
 
 var imgportal = new Image();
-imgportal.src = './IMG/portal.png';
+imgportal.src = './img/portal.png';
 
 var imgColetavel = new Image();
-imgColetavel.src = './IMG/moeda.png'; // Certifique-se de que a imagem do coletável está disponível
+imgColetavel.src = './img/moeda.png'; // Certifique-se de que a imagem do coletável está disponível
 
 const somColetavel = new Audio('./toque/coletavel.mp3');
 somColetavel.volume = 0.2;
@@ -91,7 +91,7 @@ let collectibleSize = 30; // Tamanho do quadrado coletável
 let collected = false; // Flag para verificar se o quadrado foi coletado
 
 var imginimigo = new Image();
-imginimigo.src = './IMG/SLIME.png'; // Certifique-se de que a imagem do inimigo está disponível
+imginimigo.src = './img/SLIME.png'; // Certifique-se de que a imagem do inimigo está disponível
 
 let gameOver = false;
 
