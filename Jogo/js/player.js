@@ -2,19 +2,19 @@ let canvas = document.querySelector('canvas');
 let ctx = canvas.getContext('2d');
 
 let img = new Image();
-img.src = './IMG/SLA.png';
+img.src = './Img/SLA.png';
 img.onload = function() {
     init();
 };
 
 var imgGameOver = new Image();
-imgGameOver.src = './img/gameover1.png'; // Certifique-se de que a imagem "game_over.png" está disponível
+imgGameOver.src = './Img/gameover1.png'; // Certifique-se de que a imagem "game_over.png" está disponível
 
 var imgportal = new Image();
-imgportal.src = './img/portal.png';
+imgportal.src = './Img/portal.png';
 
 var imgColetavel = new Image();
-imgColetavel.src = './img/moeda.png'; // Certifique-se de que a imagem do coletável está disponível
+imgColetavel.src = './Img/moeda.png'; // Certifique-se de que a imagem do coletável está disponível
 
 const somColetavel = new Audio('./toque/coletavel.mp3');
 somColetavel.volume = 0.2;
@@ -91,7 +91,7 @@ let collectibleSize = 30; // Tamanho do quadrado coletável
 let collected = false; // Flag para verificar se o quadrado foi coletado
 
 var imginimigo = new Image();
-imginimigo.src = './img/SLIME.png'; // Certifique-se de que a imagem do inimigo está disponível
+imginimigo.src = './Img/SLIME.png'; // Certifique-se de que a imagem do inimigo está disponível
 
 let gameOver = false;
 
